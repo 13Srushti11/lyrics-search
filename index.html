@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>song lyrics</title>
+  </head>
+  <body>
+    <div class="lyrics-input">
+      <h1>Lyrics Search</h1>
+      <div class="input-wrap">
+        <input type="text" id="artistName" placeholder="Artist name...">
+      </div>
+      <div class="input-wrap">
+        <input type="text" id="songName" placeholder="Song name...">
+      </div>
+      <button type="button" class="fetchBtn">Get Lyrics</button>
+    </div>
+    <div class="loading">
+      <p>Fethching Lyrics..</p>
+    </div>
+    <div class="lyrics-output">
+      <pre></pre>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

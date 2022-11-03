@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.lyrics-input,
+.loading{
+  text-align: center;
+}
+
+.lyrics-input{
+  background: url("bg2.jpg");
+}
+.lyrics-input,
+.lyrics-output{
+   margin:16px 0;
+   padding: 32px 24px;
+   border-radius: 12px;
+   background-attachment: #fff;
+   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.lyrics-input h1{
+  margin: 0 0 30px 0;
+  color: #fff;
+}
+
+.input-wrap{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 10px auto;
+   border: 1px #d1d1d1 solid;
+   border-radius: 4px;
+   max-width: 200px;
+}
+
+.input-wrap input{
+  width: 100%;
+  border: none;
+  padding: 10px 50px;
+  font-size: 18px;
+}
+
+.input-wrap input:focus{
+  outline: none;
+}
+
+.fetchBtn{
+  background-color: #1797ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 6px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.fetchBtn:hover{
+  background: #1683db;
+}
+
+.lyrics-output,
+.loading{
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+
+.lyrics-output pre{
+  font-size: 15px;
+}
